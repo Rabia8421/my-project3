@@ -1,0 +1,185 @@
+/* genaral start here */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* header start here */
+header>h3>span{
+    font-style: italic;
+}
+
+  /*section 2 start here*/
+  #card-container button{
+      font-size: 12px;
+  }
+  
+  /* #card1 {
+    background: url(img/model2.jpeg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    
+  } */
+  #card1, #card4,#middle-card{
+    height: 400px;
+    width: 32%;
+    margin: 10px;
+  }
+
+  #card1-body,#card4-body{
+    margin-top: 100px;
+  }
+
+  #card1 span{
+    font-size: 11px;
+  }
+
+  #card2 span{
+    font-size: 11px;
+  }
+
+  #card3 span{
+    font-size: 11px;
+  }
+
+  #card4 span{
+    font-size: 11px;
+  }
+
+
+  #test{
+    background: url(Img/back-img.jpg);
+    background-size: cover;
+    height:  220px;
+  }
+
+  /* section 4 start here */
+  #section4{
+    justify-content: center;
+    height: auto;
+  }
+
+  #section4 .product{
+    width: 100%;
+    height: auto;
+    margin: 10px;
+  }
+  #section4 img{
+    margin: 0 auto;
+  }
+/* section 5 start here */
+#section5{
+justify-content: center;
+}
+#section5 img{
+  margin: 0 auto;
+}
+
+#section5 .card{
+  margin: 10px;
+}
+
+/* section 7 start here */
+#section7{
+  justify-content: center;
+}
+#section7 .card{
+  margin: 30px;
+  
+}
+
+/* section 9 start here */
+#section9 .div-1{
+  width: 50%; 
+  padding-top: 70px;
+  margin: 10px;
+}
+#section9 .div-2{
+  width: 40%;
+  margin: 10px;
+}
+
+
+
+/* media quary start here */
+@media screen and (max-width:500px){
+  /* section 1 start here */
+    #card-container{
+      flex-direction: column;
+    }
+
+    #card1,#card4,#middle-card {
+      width: 100%;
+      height: auto;
+      margin: 10px;
+      margin-top: 0px;
+    }
+    #card2,#card3{
+      width: 100%;
+      height: auto;
+    }
+    #card1-body,#card4-body{
+      margin-top: 0px;
+    }
+/* section 4 start here */
+    #section4,#section5,#section5-product, .section4-product,#section7,#section9,.div-2{
+      flex-direction: column;
+    }
+
+    #section4.product{
+      width: 100%;
+      height: auto;
+      margin-top: 10px;
+      
+    }
+
+
+/* section 5 start here */
+#section5-product{
+  width: 100%;
+  margin-bottom: 10px;
+
+}
+
+#section5 .card{
+  margin: 0px;
+}
+
+/* section 7 start here */
+#section7 .card{
+  width: 100%;
+  margin: 0px;
+  margin-top: 10px;
+}
+#section7 .card img{
+  margin: 0 auto;
+}
+
+
+/* section 9 start here */
+#section9 .div-1, #section9 .div-2, #section9 .card{
+  width: 100%;
+  margin: 0px;
+}
+#section9 .card{
+  width: 100%; 
+  
+}
+
+/* footer start here */
+
+#fdiv1{
+  background-color: blue;
+  padding: 5px;
+  
+}
+
+#fdiv2{
+  background-color: olive;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+
+}
